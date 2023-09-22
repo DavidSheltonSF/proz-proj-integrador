@@ -113,7 +113,22 @@
       <i
         class="ri-align-justify u-primary-bg-color"
         id="c-site-header__mobile-button"
+        onclick="toggleMobileMenu()"
       ></i>
+      <span id="c-site-header__mobile-menu">
+        <button
+          class="c-site-header__register-button u-accept-color"
+          data-modal-target="#register_type_modal"
+        >
+          Register
+        </button>
+        <button
+          class="c-site-header__login-button u-primary-bg-color"
+          data-modal-target="#login_modal"
+        >
+          Login
+        </button>
+      </span>
     </header>
     <main>
       <section>
@@ -225,7 +240,7 @@
           <input
             required
             class="c-modal__input u-tertiary-bg-color"
-            id="email_input_recover_password_modal"
+            id=""
             type="email"
             placeholder="Enter your e-mail..."
             aria-label="Enter your e-mail"
@@ -418,7 +433,7 @@
                 required
                 class="c-modal__input u-tertiary-bg-color"
                 id="telephone_input_establishment_modal"
-                type="tel"
+                type="temail_input_establishment_modalel"
                 placeholder="Enter your company phone number..."
                 aria-label="Enter your company phone number."
                 tabindex="-1"
