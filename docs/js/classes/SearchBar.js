@@ -155,22 +155,22 @@ export class SearchBar {
               <span>Support</span>
               <img
                 class="c-card__icons"
-                src="/assets/imgs/accessibility_icons/Braile.svg"
+                src="/docs/imgs/accessibility_icons/Braile.svg"
                 alt="Braille icon"
               />
               <img
                 class="c-card__icons"
-                src="/assets/imgs/accessibility_icons/cão guia.svg"
+                src="/docs/imgs/accessibility_icons/cão guia.svg"
                 alt="Guide dog icon"
               />
               <img
                 class="c-card__icons"
-                src="/assets/imgs/accessibility_icons/baixa visão.svg"
+                src="/docs/imgs/accessibility_icons/baixa visão.svg"
                 alt="Low vision icon"
               />
               <img
                 class="c-card__icons"
-                src="/assets/imgs/accessibility_icons/interprete libras.svg"
+                src="/docs/imgs/accessibility_icons/interprete libras.svg"
                 alt="Pound interpreter icon"
               />
             </div>
