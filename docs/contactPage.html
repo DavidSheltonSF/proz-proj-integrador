@@ -17,93 +17,84 @@
     />
     <title>Accessuratio</title>
     <!-- CSS IMPORTS-->
-    <link rel="stylesheet" href="../css/utilities/reset.css" />
-    <link rel="stylesheet" href="../css/components/header.css" />
-    <link rel="stylesheet" href="../css/components/modal.css" />
-    <link rel="stylesheet" href="../css/components/label.css" />
-    <link rel="stylesheet" href="../css/components/card.css" />
-    <link rel="stylesheet" href="../css/components/slider.css" />
-    <link rel="stylesheet" href="../css/components/toolsDropdow.css" />
-    <link rel="stylesheet" href="../css/utilities/utilities.css" />
-    <link rel="stylesheet" href="../css/utilities/color.css" />
-    <link rel="stylesheet" href="../css/utilities/animation.css" />
-    <link rel="stylesheet" href="../css/utilities/color-classes.css" />
+    <link rel="stylesheet" href="./css/utilities/reset.css" />
+    <link rel="stylesheet" href="./css/components/header.css" />
+    <link rel="stylesheet" href="./css/components/modal.css" />
+    <link rel="stylesheet" href="./css/components/label.css" />
+    <link rel="stylesheet" href="./css/components/card.css" />
+    <link rel="stylesheet" href="./css/components/slider.css" />
+    <link rel="stylesheet" href="./css/components/toolsDropdow.css" />
+    <link rel="stylesheet" href="./css/utilities/utilities.css" />
+    <link rel="stylesheet" href="./css/utilities/color.css" />
+    <link rel="stylesheet" href="./css/utilities/animation.css" />
+    <link rel="stylesheet" href="./css/utilities/color-classes.css" />
     <!-- MEDIA QUERIES-->
     <link
       rel="stylesheet"
       media="screen and (max-width: 768px)"
-      href="../css/components/mediaQueries/header.css"
+      href="./css/components/mediaQueries/header.css"
     />
     <link
       rel="stylesheet"
       media="screen and (max-width: 768px)"
-      href="../css/components/mediaQueries/modal.css"
+      href="./css/components/mediaQueries/modal.css"
     />
     <link
       rel="stylesheet"
       media="screen and (max-width: 768px)"
-      href="../css/components/mediaQueries/slider.css"
+      href="./css/components/mediaQueries/card.css"
     />
     <link
       rel="stylesheet"
       media="screen and (max-width: 768px)"
-      href="../css/components/mediaQueries/card.css"
-    />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width: 768px)"
-      href="../css/utilities/mediaQueries/utilities.css"
+      href="./css/utilities/mediaQueries/utilities.css"
     />
     <!-- WEBSITE FAVICON-->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="../imgs/favicon/apple-touch-icon.png"
+      href="./imgs/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="../imgs/favicon/favicon-32x32.png"
+      href="./imgs/favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="../imgs/favicon/favicon-16x16.png"
+      href="./imgs/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="../imgs/favicon/site.webmanifest" />
+    <link rel="manifest" href="./imgs/favicon/site.webmanifest" />
     <!-- ICON LIBRARIES-->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <!-- JAVASCRIPT IMPORTS-->
-    <script defer src="../js/modal.js"></script>
-    <script defer src="../js/togglePassword.js"></script>
-    <script defer src="../js/mobileButton.js"></script>
+    <script defer src="./js/modal.js"></script>
+    <script defer src="./js/togglePassword.js"></script>
+    <script defer src="./js/mobileButton.js"></script>
     <script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script defer src="../js/toolsDropdown.js"></script>
-    <script defer src="../js/inputEvents.js"></script>
-    <script defer src="../js/slider.js"></script>
-    <script defer src="../js/validation.js"></script>
-    <script defer type="module" src="../js/classes/NewsCard.js"></script>
-    <script defer type="module" src="../js/muralCards.js"></script>
-
+    <script defer src="./js/toolsDropdown.js"></script>
+    <script defer src="./js/inputEvents.js"></script>
+    <script defer src="./js/validation.js"></script>
     <script
       defer
       src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
     ></script>
-    <script defer src="../js/translate.js"></script>
-    <script defer src="../js/vlibras.js"></script>
-    <script defer src="../js/searchBar.js" type="module"></script>
-    <script defer src="../js/classes/SearchBar.js" type="module"></script>
+    <script defer src="./js/translate.js"></script>
+    <script defer src="./js/vlibras.js"></script>
+    <script defer src="./js/searchBar.js" type="module"></script>
+    <script defer src="./js/classes/SearchBar.js" type="module"></script>
   </head>
   <body>
     <header class="c-site-header u-secondary-bg-color">
       <a href="./index.html" tabindex="0" class="c-site-header__logo">
         <img
-          src="../imgs/site-icon.png"
+          src="./imgs/site-icon.png"
           alt="website icon"
           width="35"
           height="35"
@@ -270,7 +261,7 @@
           ></i>
           <img
             id="user_photo"
-            src="../imgs/icons/user.svg"
+            src="./imgs/icons/user.svg"
             alt="User photo"
             width="150"
             height="150"
@@ -509,51 +500,222 @@
         <form id="c-more-photo-modal" class="c-modal u-primary-bg-color"></form>
         <div id="overlay" data-modal-target="" tabindex="-1"></div>
       </section>
-      <section class="u-margin u-row-container u-center u-justify-around">
-        <h1 class="u-column-container u-margin u-title">
-          <strong class="u-highlight-color"> DISCOVER </strong>
-          News, studies and much <br />
-          more related to respect for people <br />
-          with disabilities!
-        </h1>
-        <img
-          src="../imgs/girl-reading-a-book.png"
-          alt="A girl Reading a book - img2go IA generated image. "
-          title="A girl Reading a book - img2go IA generated image."
-          class="u-main-img u-margin"
-          width="500"
-          height="500"
-        />
-      </section>
-      <section class="u-column-container">
+      <section class="u-column-container u-center">
         <h2 class="c-label u-self-center u-padding u-tertiary-bg-color">
-          <strong class="u-highlight-color"> Highlights of the week</strong>
+          <strong>Developers</strong>
         </h2>
         <div
-          class="c-slider u-secondary-bg-color u-margin u-padding u-self-center"
+          class="u-column-container u-gap u-border-radius u-fit-content u-padding u-margin u-secondary-bg-color u-center"
+          id="developers-container"
         >
-          <i class="ri-arrow-left-s-line c-slider__button"></i>
-          <span class="c-slider__content-container u-row-container"> </span>
-          <i class="ri-arrow-right-s-line c-slider__button"></i>
-        </div>
-      </section>
-      <section class="u-column-container">
-        <h2 class="c-label u-self-center u-padding u-tertiary-bg-color">
-          <strong>Mural</strong>
-        </h2>
-        <div
-          class="u-column-container u-center u-secondary-bg-color u-padding u-border-radius u-margin"
-        >
-          <div
-            id="js-mural_section"
-            class="u-grid-container u-gap u-full-width"
-          ></div>
-          <button
-            id="c-show-more-cards-button"
-            class="u-padding u-accept-color u-margin u-border-radius u-mouse-over u-full-width"
-          >
-            Show more...
-          </button>
+          <article class="c-card u-border-radius u-tertiary-bg-color">
+            <aside class="c-card__aside">
+              <img
+                class="c-card__img"
+                src="./imgs/github/developers/david.jpg"
+                alt="David's image"
+                width="250px"
+                height="250px"
+              />
+            </aside>
+            <main
+              class="c-card__main-content u-column-container u-center u-text-center u-padding"
+            >
+              <h2>David Shelton</h2>
+              <p>
+                Front-End Developer certified by the Introduction to Front-End
+                Programming by Proz Educação.
+              </p>
+              <span class="u-row-container u-margin">
+                <a href="https://github.com/DavidSheltonSF" target="_blank">
+                  <img
+                    src="./imgs/icons/github-icon.svg"
+                    alt="Github link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+                <a href="mailto:david.faria012@gmail.com" target="_blank">
+                  <img
+                    src="./imgs/icons/gmail-icon.svg"
+                    alt="E-mail link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/davidsheltonsf/"
+                  target="_blank"
+                >
+                  <img
+                    src="./imgs/icons/linkedin-icon.svg"
+                    alt="Linkedin link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+              </span>
+            </main>
+          </article>
+          <article class="c-card u-border-radius u-tertiary-bg-color">
+            <aside class="c-card__aside">
+              <img
+                class="c-card__img"
+                src="./imgs/github/developers/douglas.jpg"
+                alt="Douglas's image"
+                width="250px"
+                height="250px"
+              />
+            </aside>
+            <div
+              class="c-card__main-content u-column-container u-center u-text-center u-padding"
+            >
+              <h2>Douglas Guimarães</h2>
+              <p>
+                Front-End Developer certified by the Introduction to Front-End
+                Programming by Proz Educação.
+              </p>
+              <span class="u-row-container u-margin">
+                <a href="https://github.com/dg2003gh" target="_blank">
+                  <img
+                    src="./imgs/icons/github-icon.svg"
+                    alt="Github link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+                <a href="mailto:dg2003gh@gmail.com" target="_blank">
+                  <img
+                    src="./imgs/icons/gmail-icon.svg"
+                    alt="E-mail link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/douglas-guimar%C3%A3es-691241263"
+                  target="_blank"
+                >
+                  <img
+                    src="./imgs/icons/linkedin-icon.svg"
+                    alt="Linkedin link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+              </span>
+            </div>
+          </article>
+          <article class="c-card u-border-radius u-tertiary-bg-color">
+            <aside class="c-card__aside">
+              <img
+                class="c-card__img"
+                src="./imgs/github/developers/elisangela.jpg"
+                alt="elis's image"
+                width="250px"
+                height="250px"
+              />
+            </aside>
+            <div
+              class="c-card__main-content u-column-container u-center u-text-center u-padding"
+            >
+              <h2>Elisângela Rosa</h2>
+              <p>
+                Front-End Developer certified by the Introduction to Front-End
+                Programming by Proz Educação.
+              </p>
+              <span class="u-row-container u-margin">
+                <a href="https://github.com/ElisangelaRosa" target="_blank">
+                  <img
+                    src="./imgs/icons/github-icon.svg"
+                    alt="Github link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+                <a href="mailto:elisangela.rosa1@hotmail.com" target="_blank">
+                  <img
+                    src="./imgs/icons/gmail-icon.svg"
+                    alt="E-mail link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/elis%C3%A2ngela-maria-rosa-da-silva/"
+                  target="_blank"
+                >
+                  <img
+                    src="./imgs/icons/linkedin-icon.svg"
+                    alt="Linkedin link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+              </span>
+            </div>
+          </article>
+          <article class="c-card u-border-radius u-tertiary-bg-color">
+            <aside class="c-card__aside">
+              <img
+                class="c-card__img"
+                src="./imgs/github/developers/isabella.jpg"
+                alt="Isabella's image"
+                width="250px"
+                height="250px"
+              />
+            </aside>
+            <div
+              class="c-card__main-content u-column-container u-center u-text-center u-padding"
+            >
+              <h2>Isabella Flauzino</h2>
+              <p>
+                Front-End Developer certified by the Introduction to Front-End
+                Programming by Proz Educação.
+              </p>
+              <span class="u-row-container u-margin">
+                <a href="https://github.com/IsaFlauzin0" target="_blank">
+                  <img
+                    src="./imgs/icons/github-icon.svg"
+                    alt="Github link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+                <a href="isabella.oliveira2009@gmail.com" target="_blank">
+                  <img
+                    src="./imgs/icons/gmail-icon.svg"
+                    alt="E-mail link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/isabellaflauzino/"
+                  target="_blank"
+                >
+                  <img
+                    src="./imgs/icons/linkedin-icon.svg"
+                    alt="Linkedin link icon."
+                    class="u-margin"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+              </span>
+            </div>
+          </article>
         </div>
       </section>
     </main>
