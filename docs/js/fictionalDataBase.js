@@ -1,6 +1,6 @@
 const fictionalDataBase = [
   {
-    image: "./imgs/establishments/happiness_coffee_shop.png",
+    image: "../imgs/establishments/happiness_coffee_shop.png",
     title: "Happiness Coffee Shop",
     description:
       "A comfortable place for you and your whole family. Our facilities have ramps, a room for guide dogs, menus in Pounds version...",
@@ -14,7 +14,7 @@ const fictionalDataBase = [
     id: 0,
   },
   {
-    image: "imgs/establishments/zursky_tech.png",
+    image: "../imgs/establishments/zursky_tech.png",
     title: "Zurski Tech",
     description:
       "If you want the best technology solutions, we can help you...",
@@ -33,7 +33,7 @@ const fictionalDataBase = [
     id: 1,
   },
   {
-    image: ".../imgs/establishments/green_vegan_restaurant.png",
+    image: "../imgs/establishments/green_vegan_restaurant.png",
     title: "Green Vegan Restaurant",
     description: "Our food can help you to care your health...",
     tags: ["#restaurant", "#physicalMotorDisability"],
