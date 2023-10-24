@@ -45,8 +45,8 @@ const fictionalDataBase = [
     id: 2,
   },
   {
-    image: "../imgs/establishments/gd_hotel.png",
-    title: "Goldes Hotel",
+    image: "../imgs/establishments/gold_hotel.png",
+    title: "Gold Hotel",
     description:
       "A comfortable place for you and your whole family. Our facilities have ramps, a room for guide dogs, menus in Pounds version...",
     tags: ["#hotel", "#physicalMotorDisability"],
