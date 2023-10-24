@@ -2,25 +2,25 @@ const slideButtons = document.querySelectorAll(".c-slider__button");
 const slideContainer = document.querySelector(".c-slider__content-container");
 const dataBase = [
   {
-    image: "../imgs/establishments/default.png",
+    image: "./imgs/establishments/default.png",
     title: "Happy place restaurant",
     text: "The perfect place for you! ",
     rate: 2,
   },
   {
-    image: "../imgs/establishments/green_vegan_restaurant.png",
+    image: "./imgs/establishments/green_vegan_restaurant.png",
     title: "Green vegan restaurant",
     text: "The prefect green and animal friendly place for you!",
     rate: 5,
   },
   {
-    image: "../imgs/establishments/zursky_tech.png",
+    image: "./imgs/establishments/zursky_tech.png",
     title: "Zursky tech",
     text: "The best technology for the best people!",
     rate: 3,
   },
   {
-    image: "../imgs/establishments/gold_hotel.png",
+    image: "./imgs/establishments/gold_hotel.png",
     title: "Gold Hotel",
     text: "Comfort and beauty, that's what you want, right? Well, that's your home then...",
     rate: 1,
