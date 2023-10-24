@@ -188,7 +188,7 @@ export class SearchBar {
 
     card.onclick = () => {
       if (!window.location.href.endsWith("establishmentPage")) {
-        window.location.href = "../html/establishmentPage.html";
+        window.location.href = "../docs/establishmentPage.html";
         localStorage.setItem("establishmentIndex", cardInfo.id);
       }
     };
