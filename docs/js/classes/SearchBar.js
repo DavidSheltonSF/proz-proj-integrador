@@ -155,22 +155,22 @@ export class SearchBar {
               <span>Support</span>
               <img
                 class="c-card__icons"
-                src="/docs/imgs/accessibility_icons/Braile.svg"
+                src="../imgs/accessibility_icons/Braile.svg"
                 alt="Braille icon"
               />
               <img
                 class="c-card__icons"
-                src="/docs/imgs/accessibility_icons/cão guia.svg"
+                src="../imgs/accessibility_icons/cão guia.svg"
                 alt="Guide dog icon"
               />
               <img
                 class="c-card__icons"
-                src="/docs/imgs/accessibility_icons/baixa visão.svg"
+                src="../imgs/accessibility_icons/baixa visão.svg"
                 alt="Low vision icon"
               />
               <img
                 class="c-card__icons"
-                src="/docs/imgs/accessibility_icons/interprete libras.svg"
+                src="../imgs/accessibility_icons/interprete libras.svg"
                 alt="Pound interpreter icon"
               />
             </div>
@@ -188,7 +188,7 @@ export class SearchBar {
 
     card.onclick = () => {
       if (!window.location.href.endsWith("establishmentPage")) {
-        window.location.href = "../docs/establishmentPage.html";
+        window.location.href = "../html/establishmentPage.html";
         localStorage.setItem("establishmentIndex", cardInfo.id);
       }
     };

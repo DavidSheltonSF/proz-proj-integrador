@@ -21,7 +21,7 @@ if (!window.location.href.endsWith("searchPage.html")) {
     searchButtonElement.onclick = () => {
       localStorage.setItem("searchTxt", searchBarElement.value);
       localStorage.setItem("searchValue", true);
-      window.location.assign("searchPage.html");
+      window.location.assign("html/searchPage.html");
     };
   };
 } else {

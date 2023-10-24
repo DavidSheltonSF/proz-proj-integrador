@@ -102,7 +102,7 @@ function addCard(){
     searchContainer = document.querySelector("div#c-searching-container__result")
     card = document.createElement("article")
     card.setAttribute("class", "c-searching__card")
-    card.innerHTML += `
+    card.innerdocs += `
       <aside>
         <img class="c-searching-container__image" src="${arrayCard[0].image}" alt="Establishment image">
       </aside>
@@ -126,12 +126,12 @@ function addCard(){
             <span>Support</span>
             <img
               class="acessIcon c-searching-container__icon"
-              src="/docs/imgs/accessibility_icons/Braile.svg"
+              src="docs/imgs/accessibility_icons/Braile.svg"
               alt="Braille icon"
             />
             <img
               class="acessIcon c-searching-container__icon"
-              src="/docs/imgs/accessibility_icons/cão guia.svg"
+              src="../imgs/accessibility_icons/cão guia.svg"
               alt="Guide dog icon"
             />
             <img
@@ -168,7 +168,7 @@ function clearCards(){
     Limpa os cards do container de pesquisa
   */
   searchResult = document.querySelector("#c-searching-container__result")
-  searchResult.innerHTML = `
+  searchResult.innerdocs = `
     <div style="margin: 5px; padding: 2px;">
       <h1>No stablishments found</h1>
     </div>

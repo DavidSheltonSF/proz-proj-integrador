@@ -16,7 +16,7 @@ document.addEventListener("keydown", ({ key }) => {
       toggleToolsDropdown();
       break;
     case "Home":
-      window.location.href = "../docs/index.html";
+      window.location.href = "../html/index.html";
       break;
     case "p":
       searchInput.focus();
